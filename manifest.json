@@ -1,0 +1,20 @@
+{
+    "name": "Auto collect rewards for twitch New world MMORPG",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Auto collect rewards for twitch New world MMORPG",
+    "permissions": [
+        "https://www.twitch.tv/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.ext-twitch.tv/*"
+            ],
+            "js": [
+                "inject.js"
+            ],
+            "all_frames": true
+        }
+    ]
+}
