@@ -1,5 +1,7 @@
 # AutoRewardCollector
 
+Chrome extension: https://chrome.google.com/webstore/detail/twitch-rewards-collector/ofnhpknelkonflpgldcdbmnohibhdlll
+
 This chrome extension collects the materials given while watching New World MMORPG stream
 Please feel free to send PRs.
 
